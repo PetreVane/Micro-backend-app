@@ -16,6 +16,10 @@ See the links bellow for each microservice source code.
 * You will have to (manually) include the JWT token in the headers of all your subsequent requests, except the ones targeting the "Create Account" and "Login" endpoints. 
 * The users-service is backed up by a MySql database.
 * The file-uploader service stores the files in a H2 database.
+* Each service uses a Logstash Appender bean for logs aggregation. The logs are streamed via tcp to Logstash container, exposed on port 5000.
+* Use the credentials bellow to log into Kibana and visualize your logs.
+* RabbitMQ is used by the Spring Cloud Config Server, when the `http://localhost:8012/actuator/busrefresh` endpoint receives a POST message. RabbitMQ publishes an asynchronous `resfresh` message to all of the services connected to it, so that each service uses the updated properties delivered by the SpringCloud Server.
+*  
 
 ### Acknowledgement
 
