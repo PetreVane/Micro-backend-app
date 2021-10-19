@@ -5,12 +5,12 @@ It uses the Spring framework to illustrate an example of a backend system, built
 
 
 This repository contains only the Docker files used to build / deploy the system.
-See the links bellow, for each microservice source code.
+See the links bellow for each microservice source code.
 
 ### How to use it:
 * Clone this repository and run `docker-compose up`. 
-* You might need to restart some of the services, once the docker compose finishes fetching the images and creating the containers.
-* This is because some services might become available before the Configuration Service is available.
+* You **might need to restart some of the services**,, once the docker compose finishes fetching the images and creating the containers.
+* This is **because some services might become available before SpringCloud Configuration Service becomes available**.
 * Once all the services have started successfully, use Postman or something similar to create an account.
 * Once you created an account, you need to sign in. After authorization, an JWT Token will be created, which will be valid for one day.
 * You will have to (manually) include the JWT token in the headers of all your subsequent requests, except the ones targeting the "Create Account" and "Login" endpoints. 
