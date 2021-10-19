@@ -1,0 +1,1 @@
+FROM peter355/backend-user-service:latest

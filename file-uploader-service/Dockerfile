@@ -1,0 +1,1 @@
+FROM peter355/backend-file-uploader-service:latest
