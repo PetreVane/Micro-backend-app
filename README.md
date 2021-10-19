@@ -36,7 +36,7 @@ See the links bellow for each microservice source code.
 * [Spring Cloud Gateway Service](https://github.com/PetreVane/Backend-gatewayService)
 * [Eureka Discovery Service](https://github.com/PetreVane/Backend-DiscoveryService)
 * [Users Service](https://github.com/PetreVane/Backend-usersService)
-* [File Uploading Service](https://github.com/PetreVane/Backend-fileUploaderService)
+* [File Uploading Service](https://github.com/PetreVane/backend-file-uploader-api)
 * [Elastic Stack](https://github.com/PetreVane/docker-elk)
 
 ### Login Credentials (username & password)
