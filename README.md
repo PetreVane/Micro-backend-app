@@ -9,7 +9,7 @@ See the links bellow for each microservice source code.
 
 ### How to use it:
 * Clone this repository and run `docker-compose up`. 
-* You **might need to restart some of the services**,, once the docker compose finishes fetching the images and creating the containers.
+* You **need to restart all of the services**,, once the docker compose finishes fetching the images and creating the containers.
 * This is **because some services might become available before SpringCloud Configuration Service becomes available**.
 * Once all the services have started successfully, use Postman or something similar to create an account.
 * Once you created an account, you need to sign in. After authorization, an JWT Token will be created, which will be valid for one day.
@@ -19,7 +19,7 @@ See the links bellow for each microservice source code.
 * Each service uses a Logstash Appender bean for logs aggregation. The logs are streamed via tcp to Logstash container, exposed on port 5000.
 * Use the credentials bellow to log into Kibana and visualize your logs.
 * RabbitMQ is used by the Spring Cloud Config Server, when the `http://localhost:8012/actuator/busrefresh` endpoint receives a POST message. RabbitMQ publishes an asynchronous `resfresh` message to all of the services connected to it, so that each service uses the updated properties delivered by the SpringCloud Server.
-*  
+
 
 ### Acknowledgement
 
