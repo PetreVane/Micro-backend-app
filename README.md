@@ -23,6 +23,15 @@ See the links bellow for each microservice source code.
 * My focus has been on ilustrating the communication between multiple services and how they come together, when building scalable systems.
 
 
+### Limitations
+* When started, the `services_users-service_1` container will fail because the `services_mysql-service_1` container does not have a shema called `users`.
+
+### TO DO
+* Add a script that creates a schema named `users` when the container is initialized.
+
+
+### Diagram
+
 
 ![Backend-Diagram drawio](https://user-images.githubusercontent.com/22425017/137919729-cbbfa8ed-cbc5-462c-b0cd-1fcc49e95346.png)
 
