@@ -22,7 +22,10 @@ See the links bellow, for each microservice source code.
 * This is a bit messy and none of the services contains any tests.
 * My focus has been on ilustrating the communication between multiple services and how they come together, when building scalable systems.
 
-![Backend-Diagram.drawio.png](quiver-image-url/DB73C29B4E4749A160D904F0F61FF6BC.png =917x486)
+
+
+![Backend-Diagram drawio](https://user-images.githubusercontent.com/22425017/137919729-cbbfa8ed-cbc5-462c-b0cd-1fcc49e95346.png)
+
 
 
  
