@@ -12,7 +12,7 @@ See the links bellow for each microservice source code.
 * You **need to restart all of the services**,, once the docker compose finishes fetching the images and creating the containers.
 * This is **because some services might become available before SpringCloud Configuration Service becomes available**.
 * Once all the services have started successfully, use Postman or something similar to create an account.
-* Once you created an account, you need to sign in. After authorization, an JWT Token will be created, which will be valid for one day.
+* Once you created an account, you need to sign in. After authorization, a JWT Token will be created, which will be valid for one day.
 * You will have to (manually) include the JWT token in the headers of all your subsequent requests, except the ones targeting the "Create Account" and "Login" endpoints. 
 * The users-service is backed up by a MySql database.
 * The file-uploader service stores the files in a H2 database.
