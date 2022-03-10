@@ -1,6 +1,8 @@
 ## Micro-backend-app
 Backend system for an imaginary photo-backup app. 
 
+ ## Notice: please [look here](https://github.com/PetreVane/orbsec-backend) to see an similar & improved version of this project
+
 It uses the Spring framework to illustrate an example of a backend system, built with the microservice-approach mindset.
 
 
@@ -25,13 +27,6 @@ See the links bellow for each microservice source code.
 
 * This is a bit messy and none of the services contains any tests.
 * My focus has been on ilustrating the communication between multiple services and how they come together, when building scalable systems.
-
-
-### Limitations
-* When started, the `services_users-service_1` container will fail because the `services_mysql-service_1` container does not have a shema called `users`.
-
-### TO DO
-* Add a script that creates a schema named `users` when the container is initialized.
 
 
 ### Diagram
